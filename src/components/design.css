@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .records-table th, .records-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .records-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+  
+  .buttons button:last-child {
+    margin-right: 0;
+  }
+
+.buttons button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: wheat;
+}
